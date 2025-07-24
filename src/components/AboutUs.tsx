@@ -1,0 +1,102 @@
+import Image from "next/image";
+import { Star } from "lucide-react";
+
+const AboutSection = () => {
+  return (
+    <section className="bg-white py-16 px-6 md:px-12 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
+      
+
+      {/* Text Content */}
+      <div>
+        <p className="text-sm font-semibold text-gray-600 uppercase mb-2">
+          About Us
+        </p>
+        <h1 className="text-3xl md:text-4xl font-bold leading-tight mb-6">
+          Expert Security Camera Installers in Brampton - Link Secure
+        </h1>
+
+        <p className="text-gray-700 mb-4">
+          Welcome to Link Secure. Your trusted choice for{" "}
+          <strong>security camera installers in Brampton</strong> and expert{" "}
+          <strong>Security system installers</strong>. With over a 10 years of
+          experience. We’re your trusted, fully licensed, and insured local
+          experts. Based in <strong>Brampton, Ontario</strong>. We extend our
+          top-notch security solutions to surrounding areas. Whether you seek{" "}
+          <strong>CCTV camera installation</strong>,{" "}
+          <strong>Door operator installation</strong>, or{" "}
+          <strong>Access control system</strong>. We deliver tailored solutions
+          across residential, commercial, and industrial sectors.
+        </p>
+
+        <p className="text-gray-700">
+          Our <strong>Commercial services</strong> extend to various sectors.
+          Covering the security needs of businesses, schools, hospitals, and
+          more. Our expertise includes{" "}
+          <strong>Access control solutions</strong>,{" "}
+          <strong>Surveillance systems</strong>, and{" "}
+          <strong>Network installations</strong> in the industrial domain. Our
+          dedicated team delivers unmatched services. We specialize in
+          comprehensive security solutions. Our commitment is to your safety and
+          satisfaction.
+        </p>
+      </div>
+
+      {/* Image and Review */}
+      <div className="flex flex-col items-center">
+        <div className="overflow-hidden rounded-2xl shadow-md">
+          <Image
+            src="/camera.jpg" // Replace with actual image path
+            alt="Security camera on brick wall"
+            width={500}
+            height={400}
+            className="object-cover w-full h-full"
+          />
+        </div>
+
+        <div className="mt-6 space-y-4">
+          <div className="flex items-center space-x-3">
+            <Image
+              src="/profile-linksecure.png" // Replace with actual logo/profile
+              alt="Link Secure"
+              width={40}
+              height={40}
+              className="rounded-full"
+            />
+            <div>
+              <p className="font-semibold">Link Secure</p>
+              <p className="text-orange-500 flex items-center">
+                5.0{" "}
+                <span className="ml-1 flex space-x-1">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} size={14} fill="#F59E0B" stroke="none" />
+                  ))}
+                </span>
+              </p>
+              <p className="text-sm text-gray-500">Based on 28 reviews</p>
+              <button className="mt-1 text-blue-600 text-sm underline">
+                review us on Google
+              </button>
+            </div>
+          </div>
+
+          <div className="bg-gray-100 p-4 rounded-lg shadow-sm max-w-sm">
+            <p className="text-sm font-medium">
+              <span className="text-orange-500">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} size={14} fill="#F59E0B" stroke="none" />
+                ))}
+              </span>
+            </p>
+            <p className="text-sm mt-2">
+              They have done our KCB warehouse in Toronto with one of the best
+              cctv system. Satisfied!
+            </p>
+            <p className="text-xs text-gray-500 mt-1">— arshad mahmuud</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default AboutSection;
