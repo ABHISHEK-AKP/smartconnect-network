@@ -43,9 +43,15 @@ const SecuritySection: React.FC = () => {
               </p>
             </div>
           
+          
+            
+            
+            {/* Bottom turret camera */}
+           
+          </div>
           {/* Right content - Camera images */}
-        <div className="relative">
-            <div className="grid grid-cols-2 gap-4">
+        <div>
+        <div className="grid grid-cols-2 gap-4">
               {/* Top row */}
               <div className="space-y-4">
                 {/* Dome camera */}
@@ -92,8 +98,6 @@ const SecuritySection: React.FC = () => {
                 </div>
               </div>
             </div>
-            
-            {/* Bottom turret camera */}
             <div className="mt-4 bg-white rounded-lg p-4 shadow-md w-1/2 ml-auto">
               <div className="w-full h-32 bg-gray-100 rounded-lg flex items-center justify-center">
                 <div className="relative">
@@ -105,8 +109,7 @@ const SecuritySection: React.FC = () => {
                 </div>
               </div>
             </div>
-          </div>
-          </div>
+        </div>
         </div>
         </div>
         

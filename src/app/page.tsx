@@ -2,6 +2,13 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import AboutUs from "@/components/AboutUs";
 import BestIn from "@/components/BestIn";
+import Services from "@/components/Services";
+import WhyUs from "@/components/WhyUs";
+import ServiceCategories from "@/components/ServiceCategories";
+import WorkProgress from "@/components/WorkProgress";
+import ServingAreas from "@/components/ServingAreas";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -10,6 +17,13 @@ export default function Home() {
       <Hero />
       <AboutUs />
       <BestIn />
+      <Services />
+      <WhyUs />
+      <ServiceCategories />
+      <WorkProgress />
+      <ServingAreas />
+      <Contact />
+      <Footer />
     </main>
   );
 }
