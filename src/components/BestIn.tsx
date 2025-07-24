@@ -3,15 +3,15 @@ import Image from 'next/image';
 
 const SecuritySection: React.FC = () => {
   return (
-    <section className="bg-gray-50 py-16 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto">
+    <section className="bg-white dark:bg-black py-16 px-4 sm:px-6 lg:px-8">
+      <div className="bg-gray-100  dark:bg-gray-900 p-5 rounded-2xl shadow-2xl shadow-gray-600 max-w-7xl mx-auto dark:shadow-white">
         {/* Blue top border */}
         <div className="w-full h-1 bg-blue-600 mb-12"></div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">  
             <div className="space-y-6">
             <div className="flex items-start gap-8">
               <div className="flex-1">
-                <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-6">
+                <h1 className="text-4xl lg:text-5xl font-bold text-gray-400 d leading-tight mb-6">
                   Best Residential & Commercial Security CCTV Camera Installation in Brampton
                 </h1>
               </div>
@@ -23,7 +23,7 @@ const SecuritySection: React.FC = () => {
               </div>
             </div>
 
-            <div className="space-y-4 text-gray-700 leading-relaxed">
+            <div className="space-y-4 text-gray-500 leading-relaxed">
               <p>
                 Link Secure stands as the premier provider of security solutions. Specialized in installations for{' '}
                 <span className="font-semibold">Residential</span>,{' '}
