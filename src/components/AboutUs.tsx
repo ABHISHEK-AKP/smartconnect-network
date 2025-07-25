@@ -8,44 +8,36 @@ const AboutSection = () => {
 
       {/* Text Content */}
       <div>
-        <p className="text-sm font-semibold text-gray-600 dark:text-gray-500  uppercase mb-2">
+        {/* <p className="text-sm font-semibold text-gray-600 dark:text-gray-500  uppercase mb-2">
           About Us
-        </p>
+        </p> */}
         <h1 className="text-3xl md:text-4xl text-black dark:text-gray-400 font-bold leading-tight mb-6">
-          Expert Security Camera Installers in Brampton - Link Secure
+          Expert Security Camera & Network Installers – Smart Connect Network
         </h1>
 
-        <p className="text-gray-600 mb-4">
-          Welcome to Link Secure. Your trusted choice for{" "}
-          <strong>security camera installers in Brampton</strong> and expert{" "}
-          <strong>Security system installers</strong>. With over a 10 years of
-          experience. We’re your trusted, fully licensed, and insured local
-          experts. Based in <strong>Brampton, Ontario</strong>. We extend our
-          top-notch security solutions to surrounding areas. Whether you seek{" "}
-          <strong>CCTV camera installation</strong>,{" "}
-          <strong>Door operator installation</strong>, or{" "}
-          <strong>Access control system</strong>. We deliver tailored solutions
-          across residential, commercial, and industrial sectors.
+        <p className="text-gray-600 text-lg mb-4">
+          We specialize in delivering top-notch {" "}
+          <strong>security and networking solutions</strong> and expert{" "}
+          for residential and commercial clients across <strong>GTA (Ontario) and Calgary</strong>.
+          .We’re your trusted, fully licensed, and insured local
+          experts. From advanced <strong>CCTV systems and sound setups</strong> to structured cabling 
+          and smart home integration, our certified team ensures seamless installation 
+          and maximum reliability.
         </p>
 
-        <p className="text-gray-600">
-          Our <strong>Commercial services</strong> extend to various sectors.
-          Covering the security needs of businesses, schools, hospitals, and
-          more. Our expertise includes{" "}
-          <strong>Access control solutions</strong>,{" "}
-          <strong>Surveillance systems</strong>, and{" "}
-          <strong>Network installations</strong> in the industrial domain. Our
-          dedicated team delivers unmatched services. We specialize in
-          comprehensive security solutions. Our commitment is to your safety and
-          satisfaction.
+        <p className="text-gray-600 text-lg">
+          <strong>Why choose us?</strong> <br />
+          ✅ Licensed & Insured Technicians <br />
+          ✅ Customized Solutions for Every Space <br />
+          ✅ Cutting-Edge Equipment & Technology <br />
         </p>
       </div>
 
       {/* Image and Review */}
       <div className="flex flex-col items-center">
-        <div className="overflow-hidden rounded-2xl shadow-gray-400 shadow-xl border-r-10  border-t-10 border-gray-400">
+        <div className="overflow-hidden rounded-2xl shadow-gray-400 shadow-xl border-r-10  border-t-10 border-gray-600">
           <Image
-            src="/camera.jpg" // Replace with actual image path
+            src="/camera.jpg" 
             alt="Security camera on brick wall"
             width={300}
             height={400}
@@ -53,10 +45,10 @@ const AboutSection = () => {
           />
         </div>
 
-        <div className="mt-6 space-y-4 flex  flex-col gap-12 md:flex-row">
+        {/* <div className="mt-6 space-y-4 flex  flex-col gap-12 md:flex-row">
           <div className="flex items-center space-x-3">
             <Image
-              src="/profile-avataar.jpg" // Replace with actual logo/profile
+              src="/profile-avataar.jpg" 
               alt="Link Secure"
               width={40}
               height={40}
@@ -93,7 +85,7 @@ const AboutSection = () => {
             </p>
             <p className="text-xs text-gray-500 mt-1">— arshad mahmuud</p>
           </div>
-        </div>
+        </div> */}
       </div>
       </div>
     </section>
