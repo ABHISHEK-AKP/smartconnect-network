@@ -11,7 +11,7 @@ const SecuritySection: React.FC = () => {
             <div className="space-y-6">
             <div className="flex items-start gap-8">
               <div className="flex-1">
-                <h1 className="text-4xl lg:text-5xl font-bold text-gray-400 d leading-tight mb-6">
+                <h1 className="md:text-4xl text-xl lg:text-5xl font-bold text-gray-400 d leading-tight mb-6">
                   Best Residential & Commercial Security CCTV Camera Installation in Brampton
                 </h1>
               </div>
@@ -104,10 +104,7 @@ const SecuritySection: React.FC = () => {
                              />
                 </div>
               </div>
-              
-              
-            </div>
-            
+            </div>       
         </div>
         </div>
         </div>

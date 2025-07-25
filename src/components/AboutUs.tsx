@@ -35,7 +35,7 @@ const AboutSection = () => {
 
       {/* Image and Review */}
       <div className="flex flex-col items-center">
-        <div className="overflow-hidden rounded-2xl shadow-gray-400 shadow-xl border-r-10  border-t-10 border-gray-600">
+        <div className="overflow-hidden rounded-2xl shadow-gray-400 shadow-xl border-r-10  border-t-10 border-gray-800">
           <Image
             src="/camera.jpg" 
             alt="Security camera on brick wall"
