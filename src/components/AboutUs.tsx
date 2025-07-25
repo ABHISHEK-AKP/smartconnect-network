@@ -26,7 +26,7 @@ const AboutSection = () => {
         </p>
 
         <p className="text-gray-600 text-lg">
-          <strong>Why choose us?</strong> <br />
+          <strong>Your Security, Our Priority!</strong> <br />
           ✅ Licensed & Insured Technicians <br />
           ✅ Customized Solutions for Every Space <br />
           ✅ Cutting-Edge Equipment & Technology <br />

@@ -18,14 +18,14 @@ const SecuritySection: React.FC = () => {
               
               {/* Years badge */}
               <div className="bg-blue-200 rounded-lg p-4 text-center min-w-[120px] flex-shrink-0">
-                <div className="text-4xl font-bold text-blue-800">10</div>
+                <div className="text-4xl font-bold text-blue-800">3</div>
                 <div className="text-sm text-blue-700 font-medium">Years Experienced</div>
               </div>
             </div>
 
             <div className="space-y-4 text-gray-500 leading-relaxed">
               <p>
-                Link Secure stands as the premier provider of security solutions. Specialized in installations for{' '}
+                SCN stands as the premier provider of security solutions. Specialized in installations for{' '}
                 <span className="font-semibold">Residential</span>,{' '}
                 <span className="font-semibold">Commercial</span>, and{' '}
                 <span className="font-semibold">Industrial</span> settings in and around Brampton. In the{' '}

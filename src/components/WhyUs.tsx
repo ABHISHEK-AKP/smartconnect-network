@@ -1,122 +1,114 @@
-
+import { ShieldCheck, Award, Users, DollarSign, Lock, Eye, Video } from "lucide-react";
+import Link from "next/link";
+import Image from "next/image";
 
 export default function WhyUs() {
   return (
-    <section className="bg-gray-50 py-16 px-4 sm:px-6 lg:px-8">
+    <section className="bg-gradient-to-br from-gray-50 via-white to-gray-100 py-20 px-6 lg:px-16">
       <div className="max-w-7xl mx-auto">
         
-        <div className="items-center">
-          {/* Why Choose Us Section */}
-          <div className="bg-gray-100 py-16">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                {/* Left content */}
-                <div>
-                  <p className="text-gray-600 text-sm font-medium tracking-wider uppercase mb-4">WHY CHOOSE US</p>
-                  <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-8">
-                    Reasons to Choose Link Secure for professional security camera installation
-                  </h2>
-                  
-                  <div className="space-y-6 text-gray-700 leading-relaxed mb-8">
-                    <p>
-                      Link Secure is your local, <span className="font-semibold">licensed</span>, and trusted <span className="font-semibold">security 
-                      camera system installation</span> expert. With a proven track 
-                      record in Brampton and nearby areas. We prioritize <span className="font-semibold">safety, 
-                      quality, security</span> and tailored solutions. Our <span className="font-semibold">fully licensed 
-                      and insured</span> team delivers peace of mind. With every 
-                      installation, repair, and <span className="font-semibold">maintenance service</span>. We ensure 
-                      thorough inspections and quality results, every time. We offer 
-                      affordable yet top-quality <span className="font-semibold">Security system installation</span> 
-                      services. Ensuring your peace of mind without breaking the 
-                      bank. We prioritize delivering excellence in securing your 
-                      property.
-                    </p>
-                  </div>
+        {/* Section Title */}
+        <div className="text-center mb-16">
+          <p className="text-blue-600 text-sm font-semibold uppercase tracking-widest mb-2">
+            Why Choose Smart Connect Network
+          </p>
+          <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-snug">
+            The Smart Choice for Security & Connectivity
+          </h2>
+          <p className="text-gray-600 mt-4 max-w-3xl mx-auto text-lg">
+            Professional security solutions tailored for your peace of mind. Here is why we are the most trusted choice across Canada.
+          </p>
+        </div>
 
-                  {/* Feature list */}
-                  <div className="grid grid-cols-2 gap-4 mb-8">
-                    <div className="flex items-center gap-3">
-                      <div className="w-5 h-5 border-2 border-blue-600 rounded-full flex items-center justify-center">
-                        <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
-                      </div>
-                      <span className="text-gray-700 font-medium">Licensed and Insured</span>
-                    </div>
-                    <div className="flex items-center gap-3">
-                      <div className="w-5 h-5 border-2 border-blue-600 rounded-full flex items-center justify-center">
-                        <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
-                      </div>
-                      <span className="text-gray-700 font-medium">Experienced</span>
-                    </div>
-                    <div className="flex items-center gap-3">
-                      <div className="w-5 h-5 border-2 border-blue-600 rounded-full flex items-center justify-center">
-                        <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
-                      </div>
-                      <span className="text-gray-700 font-medium">Professional Team</span>
-                    </div>
-                    <div className="flex items-center gap-3">
-                      <div className="w-5 h-5 border-2 border-blue-600 rounded-full flex items-center justify-center">
-                        <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
-                      </div>
-                      <span className="text-gray-700 font-medium">Affordable</span>
-                    </div>
-                    <div className="flex items-center gap-3">
-                      <div className="w-5 h-5 border-2 border-blue-600 rounded-full flex items-center justify-center">
-                        <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
-                      </div>
-                      <span className="text-gray-700 font-medium">Secure</span>
-                    </div>
-                    <div className="flex items-center gap-3">
-                      <div className="w-5 h-5 border-2 border-blue-600 rounded-full flex items-center justify-center">
-                        <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
-                      </div>
-                      <span className="text-gray-700 font-medium">24/7 Live Monitoring</span>
-                    </div>
-                  </div>
+        {/* Main Content */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          
+          {/* Left Text Section */}
+          <div>
+            <div className="space-y-6 text-gray-700 leading-relaxed mb-8">
+              <p>
+                We deliver more than just security cameras. Our services include
+                <span className="font-semibold text-gray-900"> advanced CCTV installation, sound systems, and smart networking solutions</span>. 
+                With a proven track record, we guarantee top-quality products, expert installation, and unmatched customer support.
+              </p>
+            </div>
 
-                  {/* CTA Button */}
-                  <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-3 rounded-full transition-colors duration-200 flex items-center gap-2">
-                    Get a Free Quote
-                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                    </svg>
-                  </button>
+            {/* Features List */}
+            <div className="grid grid-cols-2 gap-6">
+              {[
+                { icon: ShieldCheck, text: "Licensed & Insured" },
+                { icon: Users, text: "Experienced Team" },
+                { icon: Award, text: "Top-Quality Service" },
+                { icon: DollarSign, text: "Affordable Pricing" },
+                { icon: Lock, text: "Advanced Security" },
+                { icon: Eye, text: "24/7 Monitoring" },
+              ].map((item, index) => (
+                <div
+                  key={index}
+                  className="flex items-center gap-3 bg-white shadow-md rounded-xl p-3 hover:shadow-xl transition-shadow duration-300"
+                >
+                  <item.icon className="w-6 h-6 text-blue-600" />
+                  <span className="text-gray-800 font-medium">{item.text}</span>
                 </div>
+              ))}
+            </div>
 
-                {/* Right content - Images */}
-                <div className="relative">
-                  <div className="grid grid-cols-2 gap-4">
-                    {/* Industrial facility image placeholder */}
-                    <div className="bg-gradient-to-br from-blue-800 via-blue-600 to-yellow-400 rounded-2xl h-64 p-4 relative overflow-hidden">
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
-                      {/* Industrial structures */}
-                      <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-gray-800 to-gray-600 rounded-b-2xl"></div>
-                      <div className="absolute bottom-16 left-4 w-8 h-16 bg-gray-700 rounded-t"></div>
-                      <div className="absolute bottom-16 right-8 w-6 h-20 bg-gray-600 rounded-t"></div>
-                      <div className="absolute bottom-16 right-16 w-4 h-12 bg-gray-500 rounded-t"></div>
-                      {/* Stairs/walkway */}
-                      <div className="absolute bottom-8 right-4 w-16 h-2 bg-yellow-400 transform rotate-12"></div>
-                    </div>
-                    
-                    {/* Technician working image placeholder */}
-                    <div className="bg-gradient-to-br from-gray-200 to-gray-400 rounded-2xl h-64 p-4 relative overflow-hidden">
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
-                      {/* Simulated workshop/industrial setting */}
-                      <div className="absolute top-4 left-4 w-12 h-8 bg-blue-500 rounded"></div>
-                      <div className="absolute top-4 right-4 w-8 h-8 bg-red-500 rounded-full"></div>
-                      <div className="absolute bottom-16 left-1/2 transform -translate-x-1/2 w-16 h-20 bg-blue-600 rounded-t-full">
-                        {/* Technician figure */}
-                        <div className="absolute top-2 left-1/2 transform -translate-x-1/2 w-6 h-6 bg-amber-200 rounded-full"></div>
-                      </div>
-                      {/* Equipment/tools */}
-                      <div className="absolute bottom-8 left-8 w-6 h-6 bg-gray-600 rounded"></div>
-                      <div className="absolute bottom-8 right-8 w-4 h-8 bg-gray-700 rounded"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            {/* CTA */}
+            <Link
+              href="/contact"
+              className="inline-flex items-center gap-3 mt-8 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl"
+            >
+              Get a Free Quote
+              <svg
+                className="w-5 h-5"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                />
+              </svg>
+            </Link>
+          </div>
+
+          {/* Right Image Section */}
+    <div className="relative flex justify-center items-center">
+      {/* Background Gradient */}
+      <div className="absolute w-[450px] h-[450px] bg-gradient-to-br from-blue-400 via-purple-400 to-pink-400 rounded-full blur-3xl opacity-20 -z-10"></div>
+
+      {/* Main Video (Bigger) */}
+      <div className="rounded-3xl overflow-hidden shadow-2xl hover:scale-105 transition-transform duration-300">
+        <video
+          src="/SCN/IMG_3410.MOV"
+          width={420}
+          height={400} // Increased height
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="object-cover w-[420px] h-[400px] rounded-3xl"
+        />
+      </div>
+
+            {/* Second Image (Smaller & Staggered) */}
+            <div className="absolute bottom-[-50px] right-[-50px] rounded-3xl overflow-hidden shadow-xl hover:scale-105 transition-transform duration-300 border-4 border-white">
+              <Image
+                src="/cctv-camera.jpg"
+                alt="Technician Working"
+                width={260}  // Smaller for balance
+                height={220}
+                className="object-cover"
+              />
             </div>
           </div>
+
+
         </div>
       </div>
     </section>
-  )}
+  );
+}
