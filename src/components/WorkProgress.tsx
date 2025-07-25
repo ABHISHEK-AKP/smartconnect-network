@@ -1,5 +1,4 @@
-import { Phone } from "lucide-react";
-import Link from "next/link";
+
 
 export default function WorkProgress() {
   return (
@@ -29,7 +28,7 @@ export default function WorkProgress() {
                   Our Working Process
                 </h2>
                 <p className="max-w-4xl mx-auto text-blue-100 leading-relaxed text-lg">
-                  Our process is straightforward. We start by providing a tailored quote after discussing your needs thoroughly. Once you're satisfied, 
+                  Our process is straightforward. We start by providing a tailored quote after discussing your needs thoroughly. Once you&apos;re satisfied, 
                   we proceed with expert installation and ensure long-term maintenance to keep your security system at its best.
                 </p>
               </div>
