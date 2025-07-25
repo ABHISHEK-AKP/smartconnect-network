@@ -95,9 +95,9 @@ export default function WhyUs() {
       </div>
 
             {/* Second Image (Smaller & Staggered) */}
-            <div className="absolute bottom-[-50px] right-[-50px] rounded-3xl overflow-hidden shadow-xl hover:scale-105 transition-transform duration-300 border-4 border-white">
+            <div className="hidden md:block absolute bottom-[-50px] right-[-50px] rounded-3xl overflow-hidden shadow-xl hover:scale-105 transition-transform duration-300 border-4 border-white">
               <Image
-                src="/cctv-camera.jpg"
+                src="/CCTV-camera.jpg"
                 alt="Technician Working"
                 width={260}  // Smaller for balance
                 height={220}
