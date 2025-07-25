@@ -91,7 +91,7 @@ export default function ReviewsCarousel() {
                 {/* User Info */}
                 <div className="flex items-center mb-4">
                   <Image
-                    src={"/profile-avataar.png"}
+                    src={"/profile-avataar.jpg"}
                     alt={review.name}
                     width={48}  
                     height={48} 
