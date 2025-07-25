@@ -17,7 +17,7 @@ const Navbar: React.FC = () => {
           <div className="flex items-center space-x-2 z-10">
             <Image
               src="/SCN/Logo/3FC924BE-2FAD-4329-8E56-0865A236653F.png"
-              alt="Smart Network Connect"
+              alt="SCN"
               width={32}
               height={32}
             />

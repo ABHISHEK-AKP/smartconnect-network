@@ -55,60 +55,59 @@ const SecuritySection: React.FC = () => {
               {/* Top row */}
               <div className="space-y-4">
                 {/* Dome camera */}
-                <div className="bg-white rounded-lg p-4 shadow-md">
-                  <div className="w-full h-32 bg-gray-100 rounded-lg flex items-center justify-center">
-                    <div className="w-20 h-20 bg-white rounded-full shadow-inner flex items-center justify-center">
-                      <div className="w-8 h-8 bg-gray-800 rounded-full"></div>
-                    </div>
-                  </div>
+                <div className="bg-white dark:bg-gray-800 rounded-lg p-2 shadow-md h-62">
+                  
+                   <Image
+                               src="/SCN/dome_camera2.jpg" // Replace with actual image path
+                               alt="Security camera on brick wall"
+                               width={300}
+                               height={400}
+                               className="object-cover w-full h-full"
+                             />
                 </div>
                 
                 {/* PTZ Dome camera */}
-                <div className="bg-white rounded-lg p-4 shadow-md">
-                  <div className="w-full h-32 bg-gray-100 rounded-lg flex items-center justify-center">
-                    <div className="w-20 h-20 bg-gray-300 rounded-full shadow-inner flex items-center justify-center relative">
-                      <div className="w-6 h-6 bg-gray-700 rounded-full"></div>
-                      <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 text-xs text-gray-600">Link Secure</div>
-                    </div>
-                  </div>
+                <div className="bg-white dark:bg-gray-800 rounded-lg p-2 shadow-md h-62">
+                  
+                   <Image
+                               src="/SCN/dome_camera2.jpg" // Replace with actual image path
+                               alt="Security camera on brick wall"
+                               width={300}
+                               height={400}
+                               className="object-cover w-full h-full"
+                             />
                 </div>
-              </div>
+                </div>
               
               <div className="space-y-4">
                 {/* Doorbell camera */}
-                <div className="bg-white rounded-lg p-4 shadow-md">
-                  <div className="w-full h-32 bg-gray-100 rounded-lg flex items-center justify-center">
-                    <div className="w-12 h-20 bg-gray-800 rounded-lg flex flex-col items-center justify-center gap-2">
-                      <div className="w-6 h-6 bg-blue-500 rounded-full"></div>
-                      <div className="w-4 h-4 bg-gray-600 rounded"></div>
-                    </div>
-                  </div>
+                <div className="bg-white dark:bg-gray-800 rounded-lg p-2 shadow-md h-62">
+                  
+                   <Image
+                               src="/SCN/dome_camera2.jpg" // Replace with actual image path
+                               alt="Security camera on brick wall"
+                               width={300}
+                               height={400}
+                               className="object-cover w-full h-full"
+                             />
                 </div>
                 
                 {/* Turret camera */}
-                <div className="bg-white rounded-lg p-4 shadow-md">
-                  <div className="w-full h-32 bg-gray-100 rounded-lg flex items-center justify-center">
-                    <div className="relative">
-                      <div className="w-16 h-16 bg-white rounded-full shadow-lg flex items-center justify-center">
-                        <div className="w-8 h-8 bg-gray-800 rounded-full"></div>
-                      </div>
-                      <div className="absolute -bottom-1 left-1/2 transform -translate-x-1/2 text-xs text-gray-600">Link Secure</div>
-                    </div>
-                  </div>
+                <div className="bg-white dark:bg-gray-800 rounded-lg p-2 shadow-md h-62">
+                  
+                   <Image
+                               src="/SCN/dome_camera2.jpg" // Replace with actual image path
+                               alt="Security camera on brick wall"
+                               width={300}
+                               height={400}
+                               className="object-cover w-full h-full"
+                             />
                 </div>
               </div>
+              
+              
             </div>
-            <div className="mt-4 bg-white rounded-lg p-4 shadow-md w-1/2 ml-auto">
-              <div className="w-full h-32 bg-gray-100 rounded-lg flex items-center justify-center">
-                <div className="relative">
-                  <div className="w-20 h-12 bg-white rounded-full shadow-lg flex items-center justify-center">
-                    <div className="w-6 h-6 bg-gray-800 rounded-full"></div>
-                    <div className="absolute top-0 right-2 w-3 h-3 bg-gray-400 rounded-full"></div>
-                  </div>
-                  <div className="absolute -bottom-1 left-1/2 transform -translate-x-1/2 text-xs text-gray-600">Link Secure</div>
-                </div>
-              </div>
-            </div>
+            
         </div>
         </div>
         </div>
