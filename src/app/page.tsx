@@ -9,6 +9,7 @@ import WorkProgress from "@/components/WorkProgress";
 import ServingAreas from "@/components/ServingAreas";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import Reviews from "@/components/Reviews";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <BestIn />
       <Services />
       <WhyUs />
+      <Reviews />
       <ServiceCategories />
       <WorkProgress />
       <ServingAreas />

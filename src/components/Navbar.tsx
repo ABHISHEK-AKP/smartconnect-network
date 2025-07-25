@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { Menu, X, Phone } from 'lucide-react';
+import Image from 'next/image';
 
 const Navbar: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -14,7 +15,12 @@ const Navbar: React.FC = () => {
 
           {/* Logo on the left */}
           <div className="flex items-center space-x-2 z-10">
-            <img src="/logo.png" alt="Link Secure Logo" className="h-8 w-8" />
+            <Image
+              src="/SCN/Logo/3FC924BE-2FAD-4329-8E56-0865A236653F.png"
+              alt="Smart Network Connect"
+              width={32}
+              height={32}
+            />
             <span className="text-xl font-semibold text-black dark:text-white">Smart Connect Network</span>
           </div>
 
@@ -67,8 +73,8 @@ const Navbar: React.FC = () => {
           </MobileDropdown>
 
           <MobileDropdown title="Service Areas">
-            <NavLink href="/areas/ontario">Ontario</NavLink>
-            <NavLink href="/areas/quebec">Quebec</NavLink>
+            <NavLink href="/areas/ontario">GTA (ON)</NavLink>
+            <NavLink href="/areas/quebec">Calgary (AB)</NavLink>
           </MobileDropdown>
 
           <NavLink href="/about">About Us</NavLink>
