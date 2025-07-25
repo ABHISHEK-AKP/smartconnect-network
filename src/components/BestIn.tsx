@@ -11,7 +11,7 @@ const SecuritySection: React.FC = () => {
             <div className="space-y-6">
             <div className="flex items-start gap-8">
               <div className="flex-1">
-                <h1 className="md:text-4xl text-xl lg:text-5xl font-bold text-gray-400 d leading-tight mb-6">
+                <h1 className="md:text-4xl text-xl lg:text-5xl font-bold text-black dark:text-gray-400 d leading-tight mb-6">
                   Best Residential & Commercial Security CCTV Camera Installation in Brampton
                 </h1>
               </div>
@@ -23,7 +23,7 @@ const SecuritySection: React.FC = () => {
               </div>
             </div>
 
-            <div className="space-y-4 text-gray-500 leading-relaxed">
+            <div className="space-y-4 text-black dark:text-gray-500 leading-relaxed">
               <p>
                 SCN stands as the premier provider of security solutions. Specialized in installations for{' '}
                 <span className="font-semibold">Residential</span>,{' '}
@@ -58,7 +58,7 @@ const SecuritySection: React.FC = () => {
                 <div className="bg-white dark:bg-gray-800 rounded-lg p-2 shadow-md h-62">
                   
                    <Image
-                               src="/SCN/dome_camera2.jpg" // Replace with actual image path
+                               src="/SCN/dome_camera2.JPG" // Replace with actual image path
                                alt="Security camera on brick wall"
                                width={300}
                                height={400}
