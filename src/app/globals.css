@@ -40,7 +40,8 @@ body {
 /* Fix for containers that might cause overflow */
 .container, section, div {
   /* max-width: 100%; */
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
+  overflow: hidden;
 }
 
 /* Specific fixes for common overflow causes */
