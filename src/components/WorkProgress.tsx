@@ -1,76 +1,85 @@
+'use client';
+import { useState } from 'react';
 
+const steps = [
+  {
+    title: 'Initial Consultation',
+    description:
+      'We begin with a tailored conversation to understand your exact security goals, challenges, and environment.',
+  },
+  {
+    title: 'System Installation',
+    description:
+      'Certified technicians install the selected security solution with precision and seamless integration.',
+  },
+  {
+    title: 'Ongoing Maintenance',
+    description:
+      'We offer regular updates, system health checks, and priority support for uninterrupted service.',
+  },
+];
 
-export default function WorkProgress() {
+export default function WorkingProcess() {
+  const [activeIndex, setActiveIndex] = useState<number | null>(null);
+
+  const toggleCard = (index: number) => {
+    // toggle on click for mobile
+    setActiveIndex(activeIndex === index ? null : index);
+  };
+
   return (
-    <section className="bg-gray-50 py-16 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto">
-        
-        <div className="items-center">
-          
+    <section className="bg-[#001a66] text-white py-20 px-6 sm:px-10 md:px-16 lg:px-24 xl:px-36">
+      <div className="text-center mb-16">
+        <h2 className="text-4xl font-extrabold text-white mb-4">
+          Our Working Process
+        </h2>
+        <p className="text-gray-300 max-w-2xl mx-auto">
+          SmartConnectNetwork follows a simple 3-step method designed to deliver
+          secure, scalable, and seamless solutions tailored to your business.
+        </p>
+      </div>
 
-          {/* Our Working Process Section */}
-          <div className="relative bg-blue-800 py-16 overflow-hidden">
-            {/* Background pattern */}
-            <div className="absolute inset-0 opacity-10">
-              <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-blue-600 to-blue-900"></div>
-              {/* Geometric patterns */}
-              <div className="absolute top-16 left-16 w-32 h-32 border border-white/20 transform rotate-45"></div>
-              <div className="absolute top-32 right-32 w-24 h-24 border border-white/20 transform rotate-12"></div>
-              <div className="absolute bottom-16 left-1/4 w-40 h-40 border border-white/20 transform -rotate-12"></div>
-              <div className="absolute bottom-32 right-16 w-28 h-28 border border-white/20 transform rotate-45"></div>
-            </div>
-            
-            <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-              {/* Header */}
-              <div className="text-center mb-12">
-                <p className="text-blue-200 text-sm font-medium tracking-wider uppercase mb-4">HOW WE WORK</p>
-                <h2 className="text-4xl lg:text-5xl font-bold text-white leading-tight mb-8">
-                  Our Working Process
-                </h2>
-                <p className="max-w-4xl mx-auto text-blue-100 leading-relaxed text-lg">
-                  Our process is straightforward. We start by providing a tailored quote after discussing your needs thoroughly. Once you&apos;re satisfied, 
-                  we proceed with expert installation and ensure long-term maintenance to keep your security system at its best.
-                </p>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-6xl mx-auto">
+        {steps.map((step, index) => {
+          const isActive = activeIndex === index;
+
+          return (
+            <div
+              key={index}
+              onClick={() => toggleCard(index)}
+              onMouseEnter={() => setActiveIndex(index)}
+              onMouseLeave={() => setActiveIndex(null)}
+              className="relative h-64 bg-[#0038ff] rounded-xl shadow-xl overflow-hidden group cursor-pointer transition-transform hover:scale-[1.03]"
+            >
+              <span className="absolute top-4 left-4 bg-white text-[#0038ff] text-xs font-semibold px-3 py-1 rounded-full shadow-md z-10">
+                Step {index + 1}
+              </span>
+
+              {/* Title View */}
+              <div
+                className={`absolute inset-0 flex items-center justify-center text-center px-4 transition-all duration-500 ${
+                  isActive ? 'opacity-0 scale-90' : 'opacity-100 scale-100'
+                }`}
+              >
+                <h3 className="text-xl font-bold uppercase tracking-wide">
+                  {step.title}
+                </h3>
               </div>
 
-              {/* Process Steps */}
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
-                {/* Step 1 */}
-                <div className="bg-white rounded-2xl p-8 shadow-xl relative">
-                  <div className="absolute -top-4 left-8 bg-gray-800 text-white px-4 py-2 rounded-lg font-bold">
-                    1st
-                  </div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-4">Discussion</h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    We begin by understanding your unique security needs and preferences, ensuring our solutions align perfectly with your requirements and budget considerations.
-                  </p>
-                </div>
-
-                {/* Step 2 */}
-                <div className="bg-gray-700 rounded-2xl p-8 shadow-xl relative text-white">
-                  <div className="absolute -top-4 left-8 bg-gray-600 text-white px-4 py-2 rounded-lg font-bold">
-                    2nd
-                  </div>
-                  <h3 className="text-2xl font-bold mb-4 mt-4">Installation</h3>
-                  <p className="text-gray-200 leading-relaxed">
-                    Our expert team sets up your security system with precision and care, ensuring optimal placement and functionality for maximum protection.
-                  </p>
-                </div>
-
-                {/* Step 3 */}
-                <div className="bg-gray-600 rounded-2xl p-8 shadow-xl relative text-white">
-                  <div className="absolute -top-4 left-8 bg-gray-500 text-white px-4 py-2 rounded-lg font-bold">
-                    3rd
-                  </div>
-                  <h3 className="text-2xl font-bold mb-4 mt-4">Maintenance</h3>
-                  <p className="text-gray-200 leading-relaxed">
-                    We keep your security system running smoothly with regular check-ups and prompt support, ensuring reliable long-term performance.
-                  </p>
-                </div>
+              {/* Description View */}
+              <div
+                className={`absolute inset-0 p-6 text-md text-center flex items-center justify-center leading-relaxed transition-all duration-500 ${
+                  isActive
+                    ? 'opacity-100 translate-y-0'
+                    : 'opacity-0 translate-y-10 pointer-events-none'
+                }`}
+              >
+                {step.description}
               </div>
             </div>
-          </div>
-        </div>
+          );
+        })}
       </div>
     </section>
-  )}
+  );
+}
