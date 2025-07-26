@@ -1,50 +1,75 @@
 'use client';
 
-import React from 'react';
+import Link from 'next/link';
+import { Mail, Phone, MapPin } from 'lucide-react';
 
 export default function Footer() {
   return (
-    <footer className="bg-[#44acfc] text-white py-12 px-6">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
-        {/* Logo and Description */}
+    <footer className="bg-[#0038FF] text-white text-sm">
+      <div className="max-w-7xl mx-auto px-6 py-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+        
+        {/* Company Info */}
         <div>
-          <h1 className="text-2xl font-bold">
-            <span className="text-gray-300">Pin</span>
-            <span className="text-white">ToPlane</span>
-          </h1>
-          <p className="text-sm mt-2 text-white/80">
-            Cleaning Services company
-          </p>
-          <p className="mt-4 text-sm text-white/80">
-            Stay updated with our latest cleaning tips, service updates, and helpful articles on maintaining a spotless home.
+          <h3 className="text-2xl font-bold mb-4">Smart Connect Network Ltd.</h3>
+          <p className="leading-relaxed">
+            Canada’s trusted experts in CCTV, access control, and network solutions. 
+            We secure homes and businesses with smart, scalable technology.
           </p>
         </div>
 
-        {/* Company */}
+        {/* Quick Links */}
         <div>
-          <h3 className="text-lg font-semibold mb-3">Company</h3>
-          <ul className="space-y-2 text-sm text-white/80">
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#team">Our Team</a></li>
+          <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
+          <ul className="space-y-2">
+            <li><Link href="/" className="hover:underline">Home</Link></li>
+            <li><Link href="/services" className="hover:underline">Services</Link></li>
+            <li><Link href="/about" className="hover:underline">About</Link></li>
+            <li><Link href="/contact" className="hover:underline">Contact</Link></li>
           </ul>
         </div>
 
-        {/* Know More */}
+        {/* Services */}
         <div>
-          <h3 className="text-lg font-semibold mb-3">Know More</h3>
-          <ul className="space-y-2 text-sm text-white/80">
-            <li><a href="#">Support</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms & Conditions</a></li>
+          <h4 className="text-lg font-semibold mb-4">What We Do</h4>
+          <ul className="space-y-2">
+            <li><Link href="#" className="hover:underline">CCTV Installations</Link></li>
+            <li><Link href="#" className="hover:underline">Access Control</Link></li>
+            <li><Link href="#" className="hover:underline">Network Cabling</Link></li>
+            <li><Link href="#" className="hover:underline">Commercial Security</Link></li>
+          </ul>
+        </div>
+
+        {/* Contact */}
+        <div>
+          <h4 className="text-lg font-semibold mb-4">Contact</h4>
+          <ul className="space-y-3">
+            <li className="flex items-start gap-2">
+              <Mail size={16} />
+              <a href="mailto:smartconnect.yyz@gmail.com" className="underline break-all">
+                smartconnect.yyz@gmail.com
+              </a>
+            </li>
+            <li className="flex items-center gap-2">
+              <Phone size={16} />
+              <a href="tel:+16472627460" className="underline">
+                +1 (647) 262-7460
+              </a>
+            </li>
+            <li className="flex items-start gap-2">
+              <MapPin size={16} />
+              <span>Serving GTA (Ontario) & Calgary</span>
+            </li>
           </ul>
         </div>
       </div>
 
-      {/* Bottom Line */}
-      <div className="border-t border-white/30 mt-12 pt-6 text-center text-sm text-white/70">
-        2024 “Procleaning” All Rights Reserved
+      {/* Divider */}
+      <div className="h-[1px] bg-white/20 w-full"></div>
+
+      {/* Bottom Bar */}
+      <div className="bg-[#002ECC] text-center text-xs py-4 px-4 tracking-wide">
+        © 2025 Smart Connect Network Ltd. | All Rights Reserved
       </div>
     </footer>
   );
-};
+}

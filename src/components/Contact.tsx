@@ -38,33 +38,33 @@ export const Contact = () => {
             <h2 className="text-3xl font-semibold text-gray-900 text-left">Find us</h2>
 
             <div className="flex items-start space-x-4 p-4 bg-gray-50 rounded-xl">
-              <div className="text-white text-xl w-12 h-12 flex items-center justify-center rounded-full bg-[#44acfc]">
+              <div className="text-white text-xl w-12 h-12 flex items-center justify-center rounded-full bg-[#002ECC]">
                 <FaPhone />
               </div>
               <div className="text-left">
                 <h4 className="font-bold text-lg">Call Us</h4>
-                <p className="text-gray-700 md:text-md text-sm">+(08) 255 201 888</p>
+                <p className="text-gray-700 md:text-md text-sm">+1587-573-0100, +1647-936-8455</p>
               </div>
             </div>
 
             <div className="flex items-start space-x-4 p-4 bg-gray-50 rounded-xl">
-              <div className="text-white text-xl w-12 h-12 flex items-center justify-center rounded-full bg-[#44acfc]">
+              <div className="text-white text-xl w-12 h-12 flex items-center justify-center rounded-full bg-[#002ECC]">
                 <FaEnvelope />
               </div>
               <div className="text-left">
                 <h4 className="font-bold text-lg">Email Now</h4>
-                <p className="text-gray-700 md:text-md text-sm">Hello@procleaning.com</p>
+                <p className="text-gray-700 md:text-md text-sm">smartconnect.yyz@gmail.com</p>
               </div>
             </div>
 
             <div className="flex items-start space-x-4 p-4 bg-gray-50 rounded-xl">
-              <div className="text-white text-xl w-12 h-12 flex items-center justify-center rounded-full bg-[#44acfc]">
+              <div className="text-white text-xl w-12 h-12 flex items-center justify-center rounded-full bg-[#002ECC]">
                 <FaLocationDot />
               </div>
               <div className="text-left">
-                <h4 className="font-bold text-lg">Address</h4>
+                <h4 className="font-bold text-lg">Locations</h4>
                 <p className="text-gray-700 md:text-md text-sm">
-                  7510, Brand Tower, New York, USA
+                  GTA (ON) | Calgary (AB)
                 </p>
               </div>
             </div>
@@ -102,7 +102,7 @@ export const Contact = () => {
               ></textarea>
               <button
                 type="submit"
-                className="bg-[#44acfc] md:text-md text-sm text-white px-4 py-2 rounded-lg hover:bg-blue-600"
+  className="bg-[#0038FF] hover:bg-[#002ECC] text-white px-4 py-2 rounded-lg shadow-md transition duration-200"
               >
                 Send Message
               </button>
