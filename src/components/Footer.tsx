@@ -5,7 +5,7 @@ import { Mail, Phone, MapPin } from 'lucide-react';
 
 export default function Footer() {
   return (
-    <footer className="bg-[#0038FF] text-white text-sm">
+    <footer className="bg-gray-900 text-gray-600 text-sm">
       <div className="max-w-7xl mx-auto px-6 py-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
         
         {/* Company Info */}
@@ -67,7 +67,7 @@ export default function Footer() {
       <div className="h-[1px] bg-white/20 w-full"></div>
 
       {/* Bottom Bar */}
-      <div className="bg-[#002ECC] text-center text-xs py-4 px-4 tracking-wide">
+      <div className="bg-gray-900 text-center text-xs py-4 px-4 tracking-wide">
         © 2025 Smart Connect Network Ltd. | All Rights Reserved
       </div>
     </footer>

@@ -11,17 +11,17 @@ import Image from "next/image";
 
 export default function WhyUs() {
   return (
-    <section className="bg-gradient-to-br from-gray-50 via-white to-gray-100 py-20 px-4 sm:px-6 lg:px-16 overflow-hidden">
+    <section className="bg-gradient-to-br dark:from-black dark:via-gray-800 dark:to-black from-gray-50 via-white to-gray-100 py-20 px-4 sm:px-6 lg:px-16 overflow-hidden">
       <div className="max-w-7xl mx-auto">
         {/* Section Title */}
         <div className="text-center mb-16">
-          <p className="text-blue-600 text-sm font-semibold uppercase tracking-widest mb-2">
+          <p className="text-[#002ECC] text-sm font-semibold uppercase tracking-widest mb-2">
             Why Choose Smart Connect Network
           </p>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-gray-900 leading-snug">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-gray-400 leading-snug">
             The Smart Choice for Security & Connectivity
           </h2>
-          <p className="text-gray-600 mt-4 max-w-3xl mx-auto text-base sm:text-lg px-4">
+          <p className="text-gray-600 dark:text-grey-500 mt-4 max-w-3xl mx-auto text-base sm:text-lg px-4">
             Professional security solutions tailored for your peace of mind.
             Here is why we are the most trusted choice across Canada.
           </p>
@@ -31,10 +31,10 @@ export default function WhyUs() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Left Text Section */}
           <div className="order-2 lg:order-1">
-            <div className="space-y-6 text-gray-700 leading-relaxed mb-8">
+            <div className="space-y-6 text-gray-600 leading-relaxed mb-8">
               <p className="text-sm sm:text-base">
                 We deliver more than just security cameras. Our services include
-                <span className="font-semibold text-gray-900">
+                <span className="font-semibold text-gray-900 dark:text-gray-400">
                   {" "}
                   advanced CCTV installation, sound systems, and smart
                   networking solutions
@@ -45,7 +45,7 @@ export default function WhyUs() {
             </div>
 
             {/* Features List */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 pb-6">
               {[
                 { icon: ShieldCheck, text: "Licensed & Insured" },
                 { icon: Users, text: "Experienced Team" },
@@ -56,10 +56,10 @@ export default function WhyUs() {
               ].map((item, index) => (
                 <div
                   key={index}
-                  className="flex items-center gap-3 bg-white shadow-md rounded-xl p-3 hover:shadow-xl transition-shadow duration-300 w-full"
+                  className="flex items-center gap-3 bg-white dark:bg-gray-900 shadow-md rounded-xl p-3 hover:shadow-xl transition-shadow duration-300 w-full dark:shadow-blue-900"
                 >
-                  <item.icon className="w-5 h-5 sm:w-6 sm:h-6 text-blue-600 flex-shrink-0" />
-                  <span className="text-gray-800 font-medium text-sm sm:text-base">
+                  <item.icon className="w-5 h-5 sm:w-6 sm:h-6 text-[#002ECC] flex-shrink-0" />
+                  <span className="text-gray-800  dark:text-gray-400 font-medium text-sm sm:text-base">
                     {item.text}
                   </span>
                 </div>
@@ -69,7 +69,7 @@ export default function WhyUs() {
             {/* CTA */}
             <Link
               href="/contact"
-              className="inline-flex items-center gap-3 mt-8 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl text-sm sm:text-base"
+              className="inline-flex items-center gap-3 mt-8 bg-[#002ECC] hover:bg-blue-800 text-white font-semibold px-6 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl text-sm sm:text-base"
             >
               Get a Free Quote
               <svg

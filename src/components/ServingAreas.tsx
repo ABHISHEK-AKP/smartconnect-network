@@ -20,9 +20,9 @@ export default function AreasWeServe() {
   ];
 
   return (
-    <section className="bg-white py-20 px-6 sm:px-10 md:px-16 lg:px-24 xl:px-36">
+    <section className="bg-white dark:bg-black py-20 px-6 sm:px-10 md:px-16 lg:px-24 xl:px-36">
       <div className="text-center mb-16">
-        <h2 className="text-4xl font-extrabold text-[#0038ff] mb-3">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#002ECC] mb-3">
           Areas We Serve
         </h2>
         <p className="text-gray-600 max-w-2xl mx-auto">
@@ -40,7 +40,7 @@ export default function AreasWeServe() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: index * 0.2, duration: 0.6 }}
             viewport={{ once: true }}
-            className="bg-white rounded-xl shadow-xl overflow-hidden border border-[#0038ff20] hover:shadow-2xl transition-all"
+            className="bg-white dark:bg-gray-900 rounded-xl shadow-xl overflow-hidden border border-[#0038ff20] dark:border-[#002ECC] hover:shadow-2xl dark:shadow-[#002ECC] transition-all"
           >
             <div className="relative h-56 w-full">
               <Image
@@ -52,11 +52,11 @@ export default function AreasWeServe() {
               />
             </div>
             <div className="p-6">
-              <div className="flex items-center gap-2 text-[#0038ff] mb-2">
+              <div className="flex items-center gap-2 text-[#002ECC] mb-2">
                 <FaMapMarkerAlt className="text-xl" />
                 <h3 className="text-2xl font-bold">{loc.name}</h3>
               </div>
-              <p className="text-gray-700">{loc.description}</p>
+              <p className="text-gray-500">{loc.description}</p>
             </div>
           </motion.div>
         ))}

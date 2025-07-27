@@ -12,7 +12,7 @@ export default function Hero() {
         <p className="mb-6 text-base sm:text-lg text-black font-medium dark:text-white">
           Reliable CCTV, Networking & Sound Solutions for Homes and Businesses
         </p>
-        <button className="border border-white px-4 sm:px-6 py-2 rounded-full hover:bg-white hover:text-blue-800 transition text-black dark:text-white font-medium">
+        <button className="border border-white px-4 sm:px-6 py-2 rounded-full hover:bg-white hover:text-[#002ECC] transition text-black dark:text-white font-medium">
           Get a Free Quote
         </button>
       </div>

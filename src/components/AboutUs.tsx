@@ -11,11 +11,11 @@ const AboutSection = () => {
         {/* <p className="text-sm font-semibold text-gray-600 dark:text-gray-500  uppercase mb-2">
           About Us
         </p> */}
-        <h1 className="text-3xl md:text-4xl text-black dark:text-gray-400 font-bold leading-tight mb-6">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl text-black dark:text-gray-400 font-bold leading-tight mb-6">
           Expert Security Camera & Network Installers – Smart Connect Network
         </h1>
 
-        <p className="text-gray-600 text-lg mb-4">
+        <p className="text-gray-500 text-lg mb-4">
           We specialize in delivering top-notch {" "}
           <strong>security and networking solutions</strong> and expert{" "}
           for residential and commercial clients across <strong>GTA (Ontario) and Calgary</strong>.
@@ -25,7 +25,7 @@ const AboutSection = () => {
           and maximum reliability.
         </p>
 
-        <p className="text-gray-600 text-lg">
+        <p className="text-gray-500 text-lg">
           <strong>Your Security, Our Priority!</strong> <br />
           ✅ Licensed & Insured Technicians <br />
           ✅ Customized Solutions for Every Space <br />

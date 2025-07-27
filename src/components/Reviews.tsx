@@ -41,22 +41,22 @@ const reviews = [
 
 function ReviewsCarouselComponent() {
   return (
-    <section className="bg-gray-50 py-16">
+    <section className="bg-gray-50 dark:bg-black py-16">
       <div className="max-w-7xl mx-auto px-6">
         {/* Heading */}
         <div className="text-center mb-12">
-          <p className="text-blue-500 uppercase text-sm font-semibold tracking-wide mb-2">
+          <p className="text-[#002ECC] uppercase text-sm font-semibold tracking-wide mb-2">
             Testimonials
           </p>
-          <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900">
-            What Our <span className="text-blue-600">Clients Say</span>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-gray-400">
+            What Our <span className="text-[#002ECC]">Clients Say</span>
           </h2>
         </div>
 
         {/* Two-column layout */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
           {/* Swiper Carousel */}
-          <div className="bg-white rounded-2xl shadow-lg p-6 flex flex-col justify-center h-full">
+          <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-lg p-6 flex flex-col justify-center h-full">
             <Swiper
           modules={[Navigation, Pagination, Autoplay]}
           slidesPerView={1}
@@ -78,7 +78,7 @@ function ReviewsCarouselComponent() {
                         className="rounded-full object-cover border border-gray-200"
                       />
                       <div className="ml-4">
-                        <p className="font-semibold text-gray-800">{review.name}</p>
+                        <p className="font-semibold text-gray-800 dark:text-gray-500">{review.name}</p>
                         <p className="text-sm text-gray-500">{review.date}</p>
                       </div>
                     </div>
@@ -105,11 +105,11 @@ function ReviewsCarouselComponent() {
           </div>
 
           {/* Google Review Section */}
-          <div className="bg-gradient-to-br from-blue-600 to-blue-500 text-white rounded-2xl shadow-xl p-8 flex flex-col items-center justify-center text-center relative h-full overflow-hidden">
-            <div className="absolute inset-0 bg-blue-400 opacity-20 blur-3xl rounded-full"></div>
+          <div className="bg-[#002ECC] text-white dark:text-gray-400 rounded-2xl shadow-xl p-8 flex flex-col items-center justify-center text-center relative h-full overflow-hidden">
+            {/* <div className="absolute inset-0 bg-black: opacity-30 blur-3xl rounded-full"></div> */}
             <Image src="/camera.jpg" alt="Google" width={64} height={64} className="rounded mb-4 relative z-10" />
             <h3 className="text-2xl font-bold mb-2 relative z-10">Loved Our Service?</h3>
-            <p className="text-blue-100 mb-4 relative z-10">
+            <p className="text-blue-100 dark:text-gray-400 mb-4 relative z-10">
               Share your experience with us on Google! Your feedback helps us improve.
             </p>
             <div className="flex justify-center mb-6 relative z-10">
@@ -123,7 +123,7 @@ function ReviewsCarouselComponent() {
               href="https://www.google.com/maps/place/YourBusiness/reviews"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white text-blue-600 font-semibold px-8 py-3 rounded-full hover:bg-gray-100 transition shadow-lg relative z-10"
+              className="bg-gray-400 text-[#002ECC] font-semibold px-8 py-3 rounded-full hover:bg-gray-100 transition shadow-lg relative z-10"
             >
               Review us on Google
             </a>

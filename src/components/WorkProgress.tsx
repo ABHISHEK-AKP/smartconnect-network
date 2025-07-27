@@ -28,12 +28,12 @@ export default function WorkingProcess() {
   };
 
   return (
-    <section className="bg-[#001a66] text-white py-20 px-6 sm:px-10 md:px-16 lg:px-24 xl:px-36">
+    <section className="bg-gray-900 text-gray-400 py-20 px-6 sm:px-10 md:px-16 lg:px-24 xl:px-36">
       <div className="text-center mb-16">
-        <h2 className="text-4xl font-extrabold text-white mb-4">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-gray-400 mb-4">
           Our Working Process
         </h2>
-        <p className="text-gray-300 max-w-2xl mx-auto">
+        <p className="text-gray-500 max-w-2xl mx-auto">
           SmartConnectNetwork follows a simple 3-step method designed to deliver
           secure, scalable, and seamless solutions tailored to your business.
         </p>
@@ -49,9 +49,9 @@ export default function WorkingProcess() {
               onClick={() => toggleCard(index)}
               onMouseEnter={() => setActiveIndex(index)}
               onMouseLeave={() => setActiveIndex(null)}
-              className="relative h-64 bg-[#0038ff] rounded-xl shadow-xl overflow-hidden group cursor-pointer transition-transform hover:scale-[1.03]"
+              className="relative h-64 bg-[#002ECC] rounded-xl shadow-xl overflow-hidden group cursor-pointer transition-transform hover:scale-[1.03]"
             >
-              <span className="absolute top-4 left-4 bg-white text-[#0038ff] text-xs font-semibold px-3 py-1 rounded-full shadow-md z-10">
+              <span className="absolute top-4 left-4 bg-gray-400 text-[#002ECC] text-xs font-semibold px-3 py-1 rounded-full shadow-md z-10">
                 Step {index + 1}
               </span>
 
