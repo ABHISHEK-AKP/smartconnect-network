@@ -3,19 +3,19 @@ import { Star } from "lucide-react";
 
 const AboutSection = () => {
   return (
-    <section className="bg-white dark:bg-black py-16 px-6 md:px-12 mx-auto gap-10">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-7xl mx-auto ">
+    <section className="bg-white dark:bg-black py-8 px-4 sm-px-6 md:px-12 mx-auto gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-7xl px-0 mx-0">
 
       {/* Text Content */}
       <div>
         {/* <p className="text-sm font-semibold text-gray-600 dark:text-gray-500  uppercase mb-2">
           About Us
         </p> */}
-        <h1 className="text-3xl sm:text-4xl md:text-5xl text-black dark:text-gray-400 font-bold leading-tight mb-6">
+        <h1 className="text-xl sm:text-4xl md:text-5xl text-black dark:text-gray-400 font-bold leading-tight mb-4">
           Expert Security Camera & Network Installers – Smart Connect Network
         </h1>
 
-        <p className="text-gray-500 text-lg mb-4">
+        <p className="text-gray-500 mb-4">
           We specialize in delivering top-notch {" "}
           <strong>security and networking solutions</strong> and expert{" "}
           for residential and commercial clients across <strong>GTA (Ontario) and Calgary</strong>.

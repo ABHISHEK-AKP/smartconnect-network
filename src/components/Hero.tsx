@@ -9,10 +9,10 @@ export default function Hero() {
         <h1 className="text-xl sm:text-4xl md:text-6xl font-bold leading-tight mb-6 drop-shadow-xl text-black dark:text-white">
           One of Canada&apos;s Leading Security Camera & Network Installation Experts
         </h1>
-        <p className="mb-6 text-base sm:text-lg text-black font-medium dark:text-white">
+        <p className="mb-6 text-sm sm:text-md text-black font-medium dark:text-white">
           Reliable CCTV, Networking & Sound Solutions for Homes and Businesses
         </p>
-        <button className="border border-white px-4 sm:px-6 py-2 rounded-full hover:bg-white hover:text-[#002ECC] transition text-black dark:text-white font-medium">
+        <button className="border text-sm sm:text-md md:text-lg border-white px-4 sm:px-4 py-2 rounded-full hover:bg-white hover:text-[#002ECC] transition text-black dark:text-white font-medium">
           Get a Free Quote
         </button>
       </div>
