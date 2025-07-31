@@ -21,7 +21,7 @@ const Navbar: React.FC = () => {
               width={32}
               height={32}
             />
-            <span className="text-xl font-semibold text-black dark:text-white">Smart Connect Network</span>
+            <span className="text-xl font-semibold text-black dark:text-white">Smart Connect Network Ltd.</span>
           </div>
 
           {/* Nav Links Centered */}
@@ -29,18 +29,18 @@ const Navbar: React.FC = () => {
             <NavLink href="/">Home</NavLink>
 
             <HoverDropdown label="Our Services">
-              <NavLink href="/services/consulting">Consulting</NavLink>
-              <NavLink href="/services/security">Security</NavLink>
-              <NavLink href="/services/security">Networking</NavLink>
+              <NavLink href="/Services">Consulting</NavLink>
+              <NavLink href="/Services">Security</NavLink>
+              <NavLink href="/Services">Networking</NavLink>
             </HoverDropdown>
 
             <HoverDropdown label="Service Areas">
-              <NavLink href="/areas/ontario">Ontario</NavLink>
-              <NavLink href="/areas/quebec">Alberta</NavLink>
+              <NavLink href="/ServingAreas">Ontario</NavLink>
+              <NavLink href="/ServingAreas">Alberta</NavLink>
             </HoverDropdown>
 
-            <NavLink href="/about">About Us</NavLink>
-            <NavLink href="/contact">Contact Us</NavLink>
+            <NavLink href="/AboutUs">About Us</NavLink>
+            <NavLink href="/Contact">Contact Us</NavLink>
           </div>
 
           {/* Phone on the right */}
@@ -68,23 +68,24 @@ const Navbar: React.FC = () => {
           <NavLink href="/">Home</NavLink>
 
           <MobileDropdown title="Our Services">
-            <NavLink href="/services/consulting">Consulting</NavLink>
-            <NavLink href="/services/security">Security</NavLink>
+            <NavLink href="/Services">Consulting</NavLink>
+            <NavLink href="/Services">Security</NavLink>
+            <NavLink href="/Services">Networking</NavLink>
           </MobileDropdown>
 
           <MobileDropdown title="Service Areas">
-            <NavLink href="/areas/ontario">GTA (ON)</NavLink>
-            <NavLink href="/areas/quebec">Calgary (AB)</NavLink>
+            <NavLink href="/ServingAreas">GTA (ON)</NavLink>
+            <NavLink href="/ServingAreas">Calgary (AB)</NavLink>
           </MobileDropdown>
 
-          <NavLink href="/about">About Us</NavLink>
-          <NavLink href="/contact">Contact Us</NavLink>
+          <NavLink href="/AboutUs">About Us</NavLink>
+          <NavLink href="/Contact">Contact Us</NavLink>
 
           <a
             href="tel:+16472627460"
             className="flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-full shadow hover:bg-blue-700 transition"
           >
-            <Phone size={16} /> +1 (647) 262-7460
+            <Phone size={16} /> +1587-573-0100
           </a>
         </div>
       )}

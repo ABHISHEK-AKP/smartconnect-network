@@ -39,7 +39,7 @@ const SecuritySection: React.FC = () => {
               
               {/* <p> */}
                 <strong>Our Services Include:</strong>{' '}
-                <ul className="list-disc list-inside text-gray-800 space-y-2">
+                <ul className="list-disc list-inside text-gray-500 space-y-2">
                   <li>Indoor & Outdoor CCTV Installation</li>
                   <li>High-Definition Cameras with Night Vision</li>
                   <li>Mobile App Integration</li>

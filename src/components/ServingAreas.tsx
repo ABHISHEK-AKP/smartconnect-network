@@ -27,7 +27,7 @@ export default function AreasWeServe() {
         </h2>
         <p className="text-gray-600 max-w-2xl mx-auto">
           <strong>Smart Connect Network Ltd</strong> provides reliable security solutions across
-          Canada. Below are our primary service regions where you will find expert
+          Ontario & Alberta. Below are our primary service regions where you will find expert
           technicians and tailored support.
         </p>
       </div>

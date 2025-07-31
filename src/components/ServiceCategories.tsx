@@ -19,13 +19,13 @@ export default function ServiceCategories() {
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900 dark:text-gray-400 mb-4">Residential</h3>
                   <p className="text-gray-600 leading-relaxed mb-6">
-                    Elevate your home cctv installation with Link Secure expert Residential Security System Installation services. Our team of expert delivers home security system, security camera installation and much more. Experience peace of mind in your home with our top-notch security solutions.
+                    We provide smart security and networking solutions for condos, townhouses, and multi-storey homes. From CCTV systems to remote access control, we ensure your family and property stay safe—24/7.
                   </p>
                   <button className="bg-[#002ECC] hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-full transition-colors duration-200 flex items-center gap-2 mx-auto">
                     Residential Security System
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    {/* <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                    </svg>
+                    </svg> */}
                   </button>
                 </div>
 
@@ -38,13 +38,13 @@ export default function ServiceCategories() {
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900  dark:text-gray-400 mb-4">Commercial</h3>
                   <p className="text-gray-600 leading-relaxed mb-6">
-                    Our comprehensive services include CCTV System Installation, Access Control Systems, Networking & Cabling. We cater to a wide array of commercial establishments. From schools and hospitals to restaurants and offices. Ensuring robust security solutions tailored to your specific needs.
+                    Tailored systems for offices, retail stores, and warehouses. Monitor your assets, manage access, and maintain security across your business locations with scalable, high-performance setups.
                   </p>
                   <button className="bg-[#002ECC] hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-full transition-colors duration-200 flex items-center gap-2 mx-auto">
                     Commercial Security System
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    {/* <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                    </svg>
+                    </svg> */}
                   </button>
                 </div>
 
@@ -57,13 +57,13 @@ export default function ServiceCategories() {
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900 dark:text-gray-400 mb-4">Industrial</h3>
                   <p className="text-gray-600 leading-relaxed mb-6">
-                    Our specialized security system services cover a spectrum of industrial needs. Including Access Control Systems, Networking & Cabling, Door Operator Installation. From warehouses to manufacturing plants and more. We provide tailored security solutions to safeguard industrial facilities.
+                    Designed for factories, storage sites, and industrial facilities, our systems deliver continuous surveillance, intrusion detection, and reliable monitoring—even in challenging environments.
                   </p>
                   <button className="bg-[#002ECC] hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-full transition-colors duration-200 flex items-center gap-2 mx-auto">
                     Industrial Security System
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    {/* <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                    </svg>
+                    </svg> */}
                   </button>
                 </div>
               </div>

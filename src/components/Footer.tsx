@@ -52,7 +52,7 @@ export default function Footer() {
             <li className="flex items-center gap-2">
               <Phone size={16} />
               <a href="tel:+16472627460" className="underline">
-                +1 (647) 262-7460
+                +1587-573-0100
               </a>
             </li>
             <li className="flex items-start gap-2">
