@@ -16,14 +16,16 @@ export default function WhyUs() {
         {/* Section Title */}
         <div className="text-center mb-16">
           <p className="text-[#002ECC] text-sm font-semibold uppercase tracking-widest mb-2">
-            Why Choose Smart Connect Network
+            Why Smart Connect Network is the Right Choice
           </p>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-gray-400 leading-snug">
             The Smart Choice for Security & Connectivity
           </h2>
           <p className="text-gray-600 dark:text-grey-500 mt-4 max-w-3xl mx-auto text-base sm:text-lg px-4">
-            Professional security solutions tailored for your peace of mind.
-            Here is why we are the most trusted choice across Canada.
+            <span className="font-serif italic font-bold text-red-700 text-lg sm:text-xl">
+            Your safety is our priority
+            </span> {" "}
+             — discover why Canadians trust us for reliable, customized security solutions.
           </p>
         </div>
 

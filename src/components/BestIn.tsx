@@ -12,35 +12,42 @@ const SecuritySection: React.FC = () => {
             <div className="flex items-start gap-8">
               <div className="flex-1">
                 <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-black dark:text-gray-400 mb-6">
-                  Best Residential & Commercial Security CCTV Camera Installation in Brampton
+                  Best Residential & Commercial CCTV Installation in Calgary & the GTA
                 </h1>
               </div>
               
               {/* Years badge */}
               <div className="bg-blue-200 rounded-lg p-4 text-center min-w-[120px] flex-shrink-0">
-                <div className="text-4xl font-bold text-[#002ECC]">3</div>
+                <div className="text-4xl font-bold text-[#002ECC]">7</div>
                 <div className="text-sm text-[#002ECC] font-medium">Years Experienced</div>
               </div>
             </div>
 
             <div className="space-y-4 text-black dark:text-gray-500 leading-relaxed">
-              <p>
+              {/* <p>
                 SCN stands as the premier provider of security solutions. Specialized in installations for{' '}
                 <span className="font-semibold">Residential</span>,{' '}
                 <span className="font-semibold">Commercial</span>, and{' '}
                 <span className="font-semibold">Industrial</span> settings in and around Brampton. In the{' '}
                 <span className="font-semibold">residential realm</span>, we bring cutting-edge technology to homes. Ensuring the safety and peace of mind of families.
+              </p> */}
+              <p>
+                We offer tailored camera installation solutions designed to suit your specific property layout and security needs. 
+                Whether you are securing a home, office, retail space, or warehouse, our team ensures full coverage, 24/7 surveillance, 
+                and remote viewing access through mobile and desktop apps.
               </p>
               
-              <p>
-                Our expert team excels in{' '}
-                <span className="font-semibold">surveillance camera installation</span>, access control system and more. Customizing solutions for homes, schools, and hospitals.{' '}
-                <span className="font-semibold">Commercial enterprises</span> benefit from our comprehensive approach. Deploying sophisticated{' '}
-                <span className="font-semibold">security cameras and installation</span>. Tailored to the unique needs of businesses, restaurants, and offices. Link Secure extends its expertise to the{' '}
-                <span className="font-semibold">industrial sector</span>. Securing large-scale operations with advanced{' '}
-                <span className="font-semibold">CCTV systems</span>, robust{' '}
-                <span className="font-semibold">Security camera solutions and mounting security cameras</span>.
-              </p>
+              {/* <p> */}
+                <strong>Our Services Include:</strong>{' '}
+                <ul className="list-disc list-inside text-gray-800 space-y-2">
+                  <li>Indoor & Outdoor CCTV Installation</li>
+                  <li>High-Definition Cameras with Night Vision</li>
+                  <li>Mobile App Integration</li>
+                  <li>Motion Detection & Alerts</li>
+                  <li>Cloud and Local Storage Options</li>
+                </ul>
+
+              {/* </p> */}
             </div>
           
           
