@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Services() {
   return (
-    <section className="bg-white dark:bg-black py-16 px-4 sm:px-6 lg:px-8 overflow-hidden">
+    <section className="bg-white dark:bg-black py-4 px-4 sm:px-6 lg:px-8 overflow-hidden">
       <div className="max-w-7xl mx-auto">
         {/* Our Services section */}
         <div className="bg-white dark:bg-black py-8">
@@ -54,7 +54,7 @@ export default function Services() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mt-16 p-4">
               {/* CCTV Camera Installation */}
               <div className="bg-gray-200 dark:bg-gray-900 rounded-lg overflow-hidden shadow-md hover:shadow-lg shadow-gray-600 dark:shadow-[#002ECC] transition-shadow w-full">
-                <div className="aspect-w-16 aspect-h-10 bg-gray-200 h-48">
+                <div className="aspect-w-16 aspect-h-10 bg-gray-200 h-48 overflow-hidden">
                   <Image
                     src="/camera.jpg"
                     alt="Security camera on brick wall"
@@ -84,7 +84,7 @@ export default function Services() {
 
               {/* Door Operator Installation */}
               <div className="bg-gray-200 dark:bg-gray-900 rounded-lg overflow-hidden shadow-md hover:shadow-lg shadow-gray-600 dark:shadow-[#002ECC] transition-shadow w-full">
-                <div className="aspect-w-16 aspect-h-10 h-48">
+                <div className="aspect-w-16 aspect-h-10 h-48 overflow-hidden">
                   <Image
                     src="/camera.jpg"
                     alt="Security camera on brick wall"
@@ -114,7 +114,7 @@ export default function Services() {
 
               {/* Access Control System */}
               <div className="bg-gray-200 dark:bg-gray-900 rounded-lg overflow-hidden shadow-md shadow-gray-600 dark:shadow-[#002ECC] hover:shadow-lg transition-shadow w-full sm:col-span-2 lg:col-span-1">
-                <div className="aspect-w-16 aspect-h-10 bg-gray-200 h-48">
+                <div className="aspect-w-16 aspect-h-10 bg-gray-200 h-48 overflow-hidden">
                   <Image
                     src="/camera.jpg"
                     alt="Security camera on brick wall"

@@ -3,7 +3,7 @@ import { Star } from "lucide-react";
 
 const AboutSection = () => {
   return (
-    <section className="bg-white dark:bg-black py-8 px-4 sm-px-6 md:px-12 mx-auto gap-10">
+    <section className="bg-white dark:bg-black py-8 px-4 sm-px-6 md:px-12 mx-auto gap-10" id="about">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-7xl px-0 mx-0">
 
       {/* Text Content */}
@@ -35,9 +35,9 @@ const AboutSection = () => {
 
       {/* Image and Review */}
       <div className="flex flex-col items-center">
-        <div className="overflow-hidden rounded-2xl shadow-gray-400 shadow-xl border-r-10  border-t-10 border-gray-800">
+        <div className="overflow-hidden rounded-2xl shadow-[#002ECC] shadow-xl border-r-10  border-t-10 border-gray-800">
           <Image
-            src="/camera.jpg" 
+            src="/SCN/camera.jpeg" 
             alt="Security camera on brick wall"
             width={300}
             height={400}

@@ -49,7 +49,7 @@ const Navbar: React.FC = () => {
               href="tel:+16472627460"
               className="flex items-center gap-2 bg-[#002ECC] text-white px-4 py-2 rounded-full shadow hover:bg-blue-700 transition"
             >
-              <Phone size={16} /> +1 (647) 262-7460
+              <Phone size={16} /> +1 (587)-573-0100
             </a>
           </div>
 

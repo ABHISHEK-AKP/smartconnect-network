@@ -59,7 +59,7 @@ export default function ReviewsCarousel() {
   if (!mounted) return null;
 
   return (
-    <section className="bg-gray-50 dark:bg-black py-16 min-h-screen">
+    <section className="bg-gray-50 dark:bg-black py-8 ">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-12">
           <p className="text-[#002ECC] uppercase text-sm font-semibold tracking-wide mb-2">
