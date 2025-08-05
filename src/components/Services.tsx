@@ -56,7 +56,7 @@ export default function Services() {
               <div className="bg-gray-200 dark:bg-gray-900 rounded-lg overflow-hidden shadow-md hover:shadow-lg shadow-gray-600 dark:shadow-[#002ECC] transition-shadow w-full">
                 <div className="aspect-w-16 aspect-h-10 bg-gray-200 h-48 overflow-hidden">
                   <Image
-                    src="/camera.jpg"
+                    src="/services_cctv.png"
                     alt="Security camera on brick wall"
                     width={300}
                     height={200}
@@ -86,7 +86,7 @@ export default function Services() {
               <div className="bg-gray-200 dark:bg-gray-900 rounded-lg overflow-hidden shadow-md hover:shadow-lg shadow-gray-600 dark:shadow-[#002ECC] transition-shadow w-full">
                 <div className="aspect-w-16 aspect-h-10 h-48 overflow-hidden">
                   <Image
-                    src="/camera.jpg"
+                    src="/services_network.png"
                     alt="Security camera on brick wall"
                     width={300}
                     height={200}
@@ -116,7 +116,7 @@ export default function Services() {
               <div className="bg-gray-200 dark:bg-gray-900 rounded-lg overflow-hidden shadow-md shadow-gray-600 dark:shadow-[#002ECC] hover:shadow-lg transition-shadow w-full sm:col-span-2 lg:col-span-1">
                 <div className="aspect-w-16 aspect-h-10 bg-gray-200 h-48 overflow-hidden">
                   <Image
-                    src="/camera.jpg"
+                    src="/services_access_control.png"
                     alt="Security camera on brick wall"
                     width={300}
                     height={200}
