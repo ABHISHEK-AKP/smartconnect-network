@@ -12,7 +12,7 @@ export default function Footer() {
         <div>
           <h3 className="text-2xl font-bold mb-4">Smart Connect Network Ltd.</h3>
           <p className="leading-relaxed">
-            Canada’s trusted experts in CCTV, access control, and network solutions. 
+            Canada &apos;s leading trusted experts in CCTV, access control, and network solutions. 
             We secure homes and businesses with smart, scalable technology.
           </p>
         </div>
