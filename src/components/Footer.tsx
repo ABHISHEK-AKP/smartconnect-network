@@ -45,8 +45,8 @@ export default function Footer() {
           <ul className="space-y-3">
             <li className="flex items-start gap-2">
               <Mail size={16} />
-              <a href="mailto:smartconnect.yyz@gmail.com" className="underline break-all">
-                smartconnect.yyz@gmail.com
+              <a href="mailto:info@scnltd.com" className="underline break-all">
+                info@scnltd.com
               </a>
             </li>
             <li className="flex items-center gap-2">

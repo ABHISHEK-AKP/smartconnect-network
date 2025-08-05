@@ -53,7 +53,7 @@ export const Contact = () => {
               </div>
               <div className="text-left">
                 <h4 className="font-bold text-lg dark:text-gray-400">Email Now</h4>
-                <p className="text-gray-700 dark:text-gray-500 md:text-md text-sm">smartconnect.yyz@gmail.com</p>
+                <p className="text-gray-700 dark:text-gray-500 md:text-md text-sm">info@scnltd.com</p>
               </div>
             </div>
 
