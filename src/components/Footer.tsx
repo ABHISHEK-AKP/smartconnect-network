@@ -21,10 +21,10 @@ export default function Footer() {
         <div>
           <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
           <ul className="space-y-2">
-            <li><Link href="/" className="hover:underline">Home</Link></li>
-            <li><Link href="/services" className="hover:underline">Services</Link></li>
-            <li><Link href="/about" className="hover:underline">About</Link></li>
-            <li><Link href="/contact" className="hover:underline">Contact</Link></li>
+            <li><Link href="#home" className="hover:underline">Home</Link></li>
+            <li><Link href="#services" className="hover:underline">Services</Link></li>
+            <li><Link href="#about" className="hover:underline">About</Link></li>
+            <li><Link href="#contact" className="hover:underline">Contact</Link></li>
           </ul>
         </div>
 
@@ -32,10 +32,10 @@ export default function Footer() {
         <div>
           <h4 className="text-lg font-semibold mb-4">What We Do</h4>
           <ul className="space-y-2">
-            <li><Link href="#" className="hover:underline">CCTV Installations</Link></li>
-            <li><Link href="#" className="hover:underline">Access Control</Link></li>
-            <li><Link href="#" className="hover:underline">Network Cabling</Link></li>
-            <li><Link href="#" className="hover:underline">Commercial Security</Link></li>
+            <li><Link href="#services" className="hover:underline">CCTV Installations</Link></li>
+            <li><Link href="#services" className="hover:underline">Access Control</Link></li>
+            <li><Link href="#services" className="hover:underline">Network Cabling</Link></li>
+            <li><Link href="#services" className="hover:underline">Commercial Security</Link></li>
           </ul>
         </div>
 

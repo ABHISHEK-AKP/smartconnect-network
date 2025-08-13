@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const SecuritySection: React.FC = () => {
   return (
-    <section className="bg-white dark:bg-black py-16 px-4 sm:px-6 lg:px-8">
+    <section className="bg-white dark:bg-black py-16 px-4 sm:px-6 lg:px-8" >
       <div className="bg-gray-100  dark:bg-gray-900 p-5 rounded-2xl shadow-2xl shadow-gray-600 max-w-7xl mx-auto dark:shadow-[#002ECC]">
         {/* Blue top border */}
         <div className="w-full h-1 bg-[#002ECC] mb-12"></div>
@@ -62,14 +62,14 @@ const SecuritySection: React.FC = () => {
               {/* Top row */}
               <div className="space-y-4">
                 {/* Dome camera */}
-                <div className="bg-white dark:bg-gray-800 rounded-lg p-2 shadow-md h-62 overflow-clip">
+                <div className="bg-white dark:bg-gray-800 rounded-lg p-2 shadow-md h-62 w-full overflow-hidden">
                   
                    <Image
-                               src="/SCN/Resi.jpeg" // Replace with actual image path
+                               src="/home.png" // Replace with actual image path
                                alt="Security camera on brick wall"
                                width={300}
                                height={400}
-                               className="object-cover w-full h-full"
+                               className=" w-full h-full"
                              />
                 </div>
                 

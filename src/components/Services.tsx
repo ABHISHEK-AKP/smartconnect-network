@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Services() {
   return (
-    <section className="bg-white dark:bg-black py-4 px-4 sm:px-6 lg:px-8 overflow-hidden">
+    <section className="bg-white dark:bg-black py-4 px-4 sm:px-6 lg:px-8 overflow-hidden" id="services">
       <div className="max-w-7xl mx-auto">
         {/* Our Services section */}
         <div className="bg-white dark:bg-black py-8">

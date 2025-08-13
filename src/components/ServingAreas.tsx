@@ -20,7 +20,7 @@ export default function AreasWeServe() {
   ];
 
   return (
-    <section className="bg-white dark:bg-black py-8 px-6 sm:px-10 md:px-16 lg:px-24 xl:px-36">
+    <section className="bg-white dark:bg-black py-8 px-6 sm:px-10 md:px-16 lg:px-24 xl:px-36" id="locations">
       <div className="text-center mb-16">
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#002ECC] mb-3">
           Areas We Serve

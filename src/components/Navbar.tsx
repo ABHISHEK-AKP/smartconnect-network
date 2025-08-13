@@ -26,21 +26,24 @@ const Navbar: React.FC = () => {
 
           {/* Nav Links Centered */}
           <div className="hidden md:flex absolute left-1/2 -translate-x-1/2 space-x-6 text-sm font-medium z-0 dark:text-white">
-            <NavLink href="/">Home</NavLink>
+            <NavLink href="#home">Home</NavLink>
+            <NavLink href="#services">Our Services</NavLink>
 
-            <HoverDropdown label="Our Services">
-              <NavLink href="/Services">Consulting</NavLink>
-              <NavLink href="/Services">Security</NavLink>
-              <NavLink href="/Services">Networking</NavLink>
-            </HoverDropdown>
+            {/* <MobileDropdown title="Our Services">
+              <NavLink href="#service">Consulting</NavLink>
+              <NavLink href="#service">Security</NavLink>
+              <NavLink href="#service">Networking</NavLink>
+            </MobileDropdown> */}
 
-            <HoverDropdown label="Service Areas">
-              <NavLink href="/ServingAreas">Ontario</NavLink>
-              <NavLink href="/ServingAreas">Alberta</NavLink>
-            </HoverDropdown>
+            {/* <HoverDropdown label="Service Areas">
+              <NavLink href="#locations">Ontario</NavLink>
+              <NavLink href="#locations">Alberta</NavLink>
+            </HoverDropdown> */}
 
-            <NavLink href="/AboutUs">About Us</NavLink>
-            <NavLink href="/Contact">Contact Us</NavLink>
+            <NavLink href="#locations">Service Areas</NavLink>
+
+            <NavLink href="#about">About Us</NavLink>
+            <NavLink href="#contact">Contact Us</NavLink>
           </div>
 
           {/* Phone on the right */}
@@ -65,21 +68,21 @@ const Navbar: React.FC = () => {
       {/* Mobile Menu */}
       {menuOpen && (
         <div className="md:hidden px-4 pb-4 space-y-2 text-sm font-medium">
-          <NavLink href="/">Home</NavLink>
+          <NavLink href="#home">Home</NavLink>
 
           <MobileDropdown title="Our Services">
-            <NavLink href="/Services">Consulting</NavLink>
-            <NavLink href="/Services">Security</NavLink>
-            <NavLink href="/Services">Networking</NavLink>
+            <NavLink href="#service">Consulting</NavLink>
+            <NavLink href="#service">Security</NavLink>
+            <NavLink href="#service">Networking</NavLink>
           </MobileDropdown>
 
           <MobileDropdown title="Service Areas">
-            <NavLink href="/ServingAreas">GTA (ON)</NavLink>
-            <NavLink href="/ServingAreas">Calgary (AB)</NavLink>
+            <NavLink href="#locations">GTA (ON)</NavLink>
+            <NavLink href="#locations">Calgary (AB)</NavLink>
           </MobileDropdown>
 
-          <NavLink href="/AboutUs">About Us</NavLink>
-          <NavLink href="/Contact">Contact Us</NavLink>
+          <NavLink href="#about">About Us</NavLink>
+          <NavLink href="#contact">Contact Us</NavLink>
 
           <a
             href="tel:+16472627460"

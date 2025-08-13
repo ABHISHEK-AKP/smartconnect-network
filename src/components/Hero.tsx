@@ -1,8 +1,9 @@
 export default function Hero() {
   return (
     <section
-      className="relative bg-cover backdrop-blur-md aspect-[16/9] w-full bg-white/30 bg-center flex items-center text-white overflow-hidden"
+      className="relative bg-cover backdrop-blur-md aspect-[16/9] w-full bg-white/30 bg-center flex items-center text-white"
       style={{ backgroundImage: "url('/cctv-wall.png')" }}
+      id="home"
     >
       <div className="absolute inset-0 bg-white/30 dark:bg-black/30 z-0"></div>
       <div className="w-full max-w-4xl mx-auto px-4 sm:px-6 z-10">

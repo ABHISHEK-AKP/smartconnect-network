@@ -31,7 +31,7 @@ export const Contact = () => {
 
   return (
     <div id="contact">
-      <section className="bg-white dark:bg-black w-full flex items-center justify-center md:p-10 xl:p-30 lg:p-20 p-5">
+      <section className="bg-white dark:bg-black w-full flex items-center justify-center md:p-10 xl:p-30 lg:p-20 p-5" id='contact'>
         <div className="bg-white dark:bg-black p-10 flex flex-col md:flex-row gap-10 items-stretch">
           {/* Left Side */}
           <div className="flex-1 flex flex-col justify-end space-y-8">
