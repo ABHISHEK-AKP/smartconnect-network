@@ -69,18 +69,8 @@ const Navbar: React.FC = () => {
       {menuOpen && (
         <div className="md:hidden px-4 pb-4 space-y-2 text-sm font-medium">
           <NavLink href="#home">Home</NavLink>
-
-          <MobileDropdown title="Our Services">
-            <NavLink href="#service">Consulting</NavLink>
-            <NavLink href="#service">Security</NavLink>
-            <NavLink href="#service">Networking</NavLink>
-          </MobileDropdown>
-
-          <MobileDropdown title="Service Areas">
-            <NavLink href="#locations">GTA (ON)</NavLink>
-            <NavLink href="#locations">Calgary (AB)</NavLink>
-          </MobileDropdown>
-
+          <NavLink href="#services">Our Services</NavLink>
+          <NavLink href="#locations">Service Areas</NavLink>
           <NavLink href="#about">About Us</NavLink>
           <NavLink href="#contact">Contact Us</NavLink>
 
