@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Hero() {
   return (
     <section
@@ -13,9 +15,11 @@ export default function Hero() {
         <p className="mb-6 text-sm sm:text-md text-black font-medium dark:text-white">
           Reliable CCTV, Networking & Sound Solutions for Homes and Businesses
         </p>
+        <Link href="#contact">
         <button className="border text-sm sm:text-md md:text-lg border-white px-4 sm:px-4 py-2 rounded-full hover:bg-white hover:text-[#002ECC] transition text-black dark:text-white font-medium">
           Get a Free Quote
         </button>
+        </Link>
       </div>
     </section>
   );

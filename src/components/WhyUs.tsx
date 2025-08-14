@@ -69,8 +69,7 @@ export default function WhyUs() {
             </div>
 
             {/* CTA */}
-            <Link
-              href="/contact"
+            <Link href="#contact"
               className="inline-flex items-center gap-3 mt-8 bg-[#002ECC] hover:bg-blue-800 text-white font-semibold px-6 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl text-sm sm:text-base"
             >
               Get a Free Quote
