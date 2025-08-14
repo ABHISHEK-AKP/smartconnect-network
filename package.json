@@ -6,8 +6,7 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "postbuild": "mv out build"
+    "lint": "next lint"
   },
   "dependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.2",
