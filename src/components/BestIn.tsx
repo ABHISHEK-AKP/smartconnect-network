@@ -62,16 +62,17 @@ const SecuritySection: React.FC = () => {
               {/* Top row */}
               <div className="space-y-4">
                 {/* Dome camera */}
-                <div className="bg-white dark:bg-gray-800 rounded-lg p-2 shadow-md h-62 w-full overflow-hidden">
+                <div className="bg-white dark:bg-gray-800 rounded-lg p-2 shadow-md h-62 overflow-clip">
                   
                    <Image
-                               src="/home.png" // Replace with actual image path
+                               src="/SCN/home-cctv.png" // Replace with actual image path
                                alt="Security camera on brick wall"
                                width={300}
                                height={400}
-                               className=" w-full h-full"
+                               className="object-cover"
                              />
                 </div>
+                
                 
                 {/* PTZ Dome camera */}
                 <div className="bg-white dark:bg-gray-800 rounded-lg p-2 shadow-md h-62 overflow-clip">
@@ -81,10 +82,10 @@ const SecuritySection: React.FC = () => {
                                alt="Security camera on brick wall"
                                width={300}
                                height={400}
-                               className="object-cover w-full h-full"
+                               className="object-cover"
                              />
                 </div>
-                </div>
+              </div>
               
               <div className="space-y-4">
                 {/* Doorbell camera */}
@@ -95,7 +96,7 @@ const SecuritySection: React.FC = () => {
                                alt="Security camera on brick wall"
                                width={300}
                                height={400}
-                               className="object-cover w-full h-full"
+                               className="object-cover"
                              />
                 </div>
                 
@@ -103,15 +104,15 @@ const SecuritySection: React.FC = () => {
                 <div className="bg-white dark:bg-gray-800 rounded-lg p-2 shadow-md h-62 overflow-clip">
                   
                    <Image
-                               src="/SCN/Commercialnet.png" // Replace with actual image path
+                               src="/SCN/commercialnet.png" // Replace with actual image path
                                alt="Security camera on brick wall"
                                width={300}
                                height={400}
-                               className="object-cover w-full h-full"
+                               className="object-cover"
                              />
                 </div>
               </div>
-            </div>       
+        </div>       
         </div>
         </div>
         </div>

@@ -19,7 +19,7 @@ const AboutSection = () => {
           We specialize in delivering top-notch {" "}
           <strong>security and networking solutions</strong> and expert{" "}
           for residential and commercial clients across <strong>GTA (Ontario) and Calgary</strong>.
-          .We’re your trusted, fully licensed, and insured local
+          .We are your trusted, fully licensed, and insured local
           experts. From advanced <strong>CCTV systems and sound setups</strong> to structured cabling 
           and smart home integration, our certified team ensures seamless installation 
           and maximum reliability.
@@ -35,15 +35,16 @@ const AboutSection = () => {
 
       {/* Image and Review */}
       <div className="flex flex-col items-center">
-        <div className="overflow-hidden rounded-2xl shadow-[#002ECC] shadow-xl border-r-10  border-t-10 border-gray-800">
-          <Image
-            src="/SCN/camera.jpeg" 
-            alt="Security camera on brick wall"
-            width={300}
-            height={400}
-            className="object-cover w-full h-full"
-          />
-        </div>
+      <div className="relative overflow-hidden rounded-2xl shadow-[#002ECC] shadow-xl border-r-10 border-t-10 border-gray-800 w-full max-w-md h-[400px]">
+        <Image
+          src="/SCN/camera.jpeg"
+          alt="Security camera on brick wall"
+          fill
+          className="object-cover"
+          priority
+        />
+      </div>
+
 
         {/* <div className="mt-6 space-y-4 flex  flex-col gap-12 md:flex-row">
           <div className="flex items-center space-x-3">
