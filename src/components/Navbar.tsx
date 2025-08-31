@@ -49,7 +49,7 @@ const Navbar: React.FC = () => {
           {/* Phone on the right */}
           <div className="hidden md:flex z-10">
             <a
-              href="tel:+16472627460"
+              href="tel:+15875730100"
               className="flex items-center gap-2 bg-[#002ECC] text-white px-4 py-2 rounded-full shadow hover:bg-blue-700 transition"
             >
               <Phone size={16} /> +1 (587)-573-0100
@@ -75,7 +75,7 @@ const Navbar: React.FC = () => {
           <NavLink href="#contact">Contact Us</NavLink>
 
           <a
-            href="tel:+16472627460"
+            href="tel:+15875730100"
             className="flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-full shadow hover:bg-blue-700 transition"
           >
             <Phone size={16} /> +1587-573-0100
